@@ -6,13 +6,15 @@
 <body>
 	<style type="text/css">
 		@keyframes change{
-			from{background-color:black;}
-			to{background-color:white;}
+			0% {background-color:black;}
+			33% {background-color:white;}
+			66% {background-color:black;}
 		}
 		.a{ 
 			background-color: black;
 			display: flex;
 			margin: 15px;
+			padding:8px;
 			flex-direction: row;
 			flex-wrap: wrap;
 			animation-name:change;
