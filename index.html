@@ -5,12 +5,18 @@
 </head>
 <body>
 	<style type="text/css">
+		@keyframes change{
+			from(background-color:black)
+			to(background-color:white)
+		}
 		.a{ 
 			background-color: black;
 			display: flex;
 			margin: 15px;
 			flex-direction: row;
 			flex-wrap: wrap;
+			animation-name:change;
+			animation-duration:3s;
 		}
 		.a .box:hover{
 			position:relative;
